@@ -1,36 +1,119 @@
-# [난이도] 문제명
+# [Lv1] 성격 유형 검사하기
 
-[문제 링크](문제 링크 주소 여기에) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/118666) 
 
-
-`#BFS` `#그래프 이론` `#그래프 탐색` `#O(N)`
-
-### 성능 요약
-
-메모리:  KB, 시간:  ms
+#구현 #문자열 #해시맵 #시뮬레이션
 
 ### 제출 일자
 
-2026년 7월 22일 23:03:47
+2026년 2월 13일
 
-### 문제 설명
-
+### 문제 설명 (요약)
+설문조사 결과(survey, choices)를 기반으로
+각 성격 유형(R/T, C/F, J/M, A/N)의 점수를 계산한 뒤,
+더 높은 점수를 가진 유형을 조합해 최종 성격 문자열을 만든다.
 
 ### 입력
+survey: 질문 유형 배열 (예: "RT", "CF" 등)
+choices: 선택지 배열 (1 ~ 7)
 
 ### 출력
-
+최종 성격 유형 문자열 (예: "RCJA")
 
 <hr>
 
 ### 핵심 풀이 전략
-
+1. 성격 유형 8개를 Map에 미리 0으로 초기화
+2. survey를 순회하며 left/right 성격 분리
+3. choice 기준으로 점수 계산
+4. 기준값 4를 중심으로 점수 부여
+5. 마지막 for문에서 각 쌍마다 더 큰 값 선택
+6. 결과를 문자열로 합치기
 
 ---
 
+```java
+import java.io.*;
+import java.util.*;
+
+class Solution {
+    public String solution(String[] survey, int[] choices) {
+        String answer = "";
+        
+        // 성격 유형
+        String[] list = new String[]{"R", "T", "C", "F", "J", "M", "A", "N"};
+        
+        // 각 유형별 점수 카운팅
+        HashMap<String, Integer> map = new HashMap<>();
+        for (String s : list) {
+            map.put(s, 0);
+        }
+        
+        // 최종 성격 유형
+        List<String> result = new ArrayList<>();
+        
+        for(int i = 0; i < choices.length; i++){
+            
+            String[] split = survey[i].split("");
+            String left = split[0];
+            String right = split[1];
+            
+            // 선택한 번호 점수 계산
+            int choice = choices[i];
+            if(choice == 4) continue;
+            if(choice > 4) map.put(right, map.get(right) + (choice-4));
+            else if(choice < 4) map.put(left, map.get(left) + (4-choice));
+        }
+        
+        for(int i = 0; i < 8; i+=2){
+            
+            String left = list[i];
+            String right = list[i+1];
+            
+            if (map.get(left).equals(map.get(right))) result.add(left);
+            else result.add(map.get(left) > map.get(right) ? left : right);
+        }
+        
+        return String.join("", result);
+    }
+}
+```
+
 ### 삽길 기록 🧠
+##JAVA 문법 공부를 더 해야할 듯 싶다.
 
+1. Map 초기화 안 해서 NPE 발생
+2. map.get(x)++ 사용 실수
+  ```java
+  map.put(key, map.get(key)++);
+  ```
+  -> 증가값이 저장되지 않음
+  
+3. 점수 기준 착각 (3으로 설정) -> 중립은 4번
+4. 점수를 항상 +1만하도록 설정했음 1~6까지 전부 고려해야 함
+5. Integer 비교에 == 사용 -> 객체 비교 → equals 사용 필요
+6. List에 join() 사용 시도 -> String.join 사용해야 함
+7. for문 증가식 할 때 i+2 라고 적음 -> i+=2 라고 해야 함
+8. 삼항 연산자 단독 사용
+  ```java
+  else map.get(left) > map.get(right) ? ...
+  (잘못된 삼항연산자 사용 방법)
+  ```
+   -> 삼항연산자는 대입 or 메서드 인자로 써야 함
 
+9. 잘못된 Map 활용
+  ```java
+  map.get(right)++ / map.get(left)++
+  ```
+  -> ++는 후위 연산자임. 값만 증가시키고 다시 저장은 안하고 있음. +1 을 해야함
+  
 ---
 
 ### 배운 점 && 보완할 점
+- HashMap은 반드시 초기화하고 사용
+- 점수형 문제는 공식부터 정리할 것
+- Integer 비교 시 equals 습관화
+- List → String 변환 방법 숙지
+- 문제 조건을 끝까지 정확히 읽기
+- 기준값(중립 위치) 먼저 체크하기
+- ##샘플 말고 극단 테스트도 직접 만들어보기
