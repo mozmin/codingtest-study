@@ -2,7 +2,7 @@
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/118666) 
 
-#구현 #문자열 #해시맵 #시뮬레이션
+`#구현` `#문자열` `#해시맵` `#시뮬레이션`
 
 ### 제출 일자
 
