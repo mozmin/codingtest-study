@@ -18,7 +18,7 @@
 | Week | Problems | Status |
 |---|---|---|
 | Week 01 | [PGS] Lv1_가장 많이 받은 선물| ⬜ |
-| Week 02 |  | ⬜ |
+| Week 02 | [PGS] Lv1_성격 유형 검사하기 | ⬜ |
 | Week 03 |  | ⬜ |
 | Week 04 |  | ⬜ |
 ---
