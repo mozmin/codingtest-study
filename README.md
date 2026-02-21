@@ -58,7 +58,7 @@
 
 ---
 
-## Solution.md 작성 템플릿 (각 문제 폴더 README)
+## Solution.md 작성 템플릿
 [solution.md](https://github.com/mozmin/codingtest-study/blob/main/solution.md)
 
 
