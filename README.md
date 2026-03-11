@@ -1,7 +1,7 @@
 # Coding Test Study
 
 코딩테스트 대비 스터디 레포입니다.  
-목표: **2026 취준**을 위해 **주 1~2문제 꾸준히** 풀고, 풀이를 기록/리뷰합니다.
+목표: **2026 취준**을 위해 **주 4문제 이상 꾸준히** 풀고, 풀이를 기록/리뷰합니다.
 <img width="1562" height="768" alt="image" src="https://github.com/user-attachments/assets/01c4b2b4-22bc-47a4-a52c-6ce0bde5b966" />
 
 ---
@@ -19,6 +19,7 @@
 | Week 02 | [PGS] Lv1_성격 유형 검사하기 | ⬜ |
 | Week 03 | [PGS] Lv1_개인정보 수집 유효기간 | ⬜ |
 | Week 04 | [PGS] Lv1_모의고사, [PGS] Lv2_피로도, [PGS] Lv1_신고 결과 받기, [PGS] Lv2_타겟 넘버| ⬜ |
+| Week 05 | [PGS] Lv1_노란불 신호등, [PGS] Lv1_다트게임, [PGS] Lv1_로또의 최고 순위와 최저 순위, [PGS] Lv1_실패율| ⬜ |
 ---
 
 ## 플랫폼별 폴더 접두어
