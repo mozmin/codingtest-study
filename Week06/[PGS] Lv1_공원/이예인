@@ -1,0 +1,87 @@
+# [Lv1] 공원
+https://school.programmers.co.kr/learn/courses/30/lessons/340198
+
+`#구현` `#완전탐색`
+
+### 성능 요약
+
+메모리:  KB, 시간:  ms <br>
+시간복잡도: O(M log M + K × R × C × K²) 
+- M : 돗자리 종류 개수 (mats.length)
+- R : 공원의 행 개수
+- C : 공원의 열 개수
+- K : 돗자리 한 변의 길이
+
+### 제출 일자
+2026년 3월 17일 
+
+### 문제 설명
+공원은 2차원 문자열 배열 park로 주어지며, <br>
+비어 있는 칸은 "-1"로 표시되고, 사람이 있거나 이미 사용 중인 칸은 다른 값으로 표시된다. <br>
+
+여러 크기의 정사각형 돗자리 mats가 주어질 때, <br>
+공원 안에 빈 칸(-1)만으로 이루어진 정사각형 영역에 깔 수 있는 돗자리 중 가장 큰 크기를 찾아 반환하는 문제이다. <br>
+
+어떤 크기의 돗자리도 놓을 수 없다면 -1을 반환한다. <br>
+
+### 입력
+- `int[] mats` : 돗자리 한 변의 길이 목록
+- `String[][] park` : 공원 상태 정보
+  
+### 출력
+- 설치 가능한 가장 큰 돗자리 크기
+- 불가능하면 -1
+
+### 핵심 풀이 전략
+1. `mats`를 오름차순 정렬한 뒤, 가장 큰 돗자리부터 확인한다.
+2. 현재 돗자리 크기를 matSize라고 할 때, 공원에서 이 돗자리가 시작될 수 있는 모든 좌표 (r, c)를 탐색한다.
+3. 각 시작 좌표에 대해 matSize × matSize 영역이 전부 "-1"인지 검사한다.
+4. 한 곳이라도 가능하면, 현재 크기가 가장 큰 가능한 돗자리이므로 바로 반환한다.
+5. 끝까지 찾지 못하면 -1을 반환한다.
+
+핵심은 큰 돗자리부터 검사해서 처음 성공한 값을 바로 반환하는 것이다. <br>
+이렇게 하면 최대 크기를 자연스럽게 구할 수 있다.
+
+### 제출 코드
+```java
+import java.util.*;
+
+class Solution {
+    public int solution(int[] mats, String[][] park) {
+        int row = park.length;
+        int column = park[0].length;
+        Arrays.sort(mats); // 오름차순 정렬
+        // 큰 수 부터 검사
+        for(int i = mats.length - 1 ; i >= 0; i--){
+            int matSize = mats[i];
+            for(int r = 0; r <= row - matSize; r++){
+                for(int c = 0 ; c <= column - matSize; c++){
+                    if(canPlace(r, c, matSize, park)) return matSize;
+                }
+            }
+        }
+        return -1;
+    }
+    
+    boolean canPlace(int r, int c, int matSize, String[][] park){
+        for(int i = r; i < r + matSize; i++){
+            for(int j = c; j < c + matSize; j++){
+                if(!park[i][j].equals("-1")) return false;
+            }
+        }
+        return true;
+    }
+}
+```
+
+
+---
+
+### 삽길 기록 🧠
+
+
+
+### 배운 점 && 보완할 점
+
+
+
