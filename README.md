@@ -15,14 +15,14 @@
 ## Weekly Progress
 | Week | Problems | Status |
 |---|---|---|
-| Week 01 | [PGS] Lv1_가장 많이 받은 선물| ⬜ |
-| Week 02 | [PGS] Lv1_성격 유형 검사하기 | ⬜ |
-| Week 03 | [PGS] Lv1_개인정보 수집 유효기간 | ⬜ |
-| Week 04 | [PGS] Lv1_모의고사, [PGS] Lv2_피로도, [PGS] Lv1_신고 결과 받기, [PGS] Lv2_타겟 넘버| ⬜ |
-| Week 05 | [PGS] Lv1_노란불 신호등, [PGS] Lv1_다트게임, [PGS] Lv1_로또의 최고 순위와 최저 순위, [PGS] Lv1_실패율| ⬜ |
-| Week 06 | [LTC] House Robber, [PGS] Lv1_공원, [PGS] Lv2_서버 증설 횟수, [PGS] Lv2_주차 요금 계산| ⬜ |
-| Week 07 | [PGS] Lv1_공원 산책, [PGS] Lv2_거리두기 확인하기, [PGS] Lv2_전력망 둘로 나누기, [PGS] Lv2_카펫| ⬜ |
-| Week 08 | [PGS] Lv1_중요한 단어를 스포 방지, [PGS] Lv2_비밀 코드 해독, [PGS] Lv2_튜플, [PGS] Lv3_네트워크| ⬜ |
+| Week 01 | [PGS] Lv1_가장 많이 받은 선물| ✅ |
+| Week 02 | [PGS] Lv1_성격 유형 검사하기 | ✅ |
+| Week 03 | [PGS] Lv1_개인정보 수집 유효기간 | ✅ |
+| Week 04 | [PGS] Lv1_모의고사, [PGS] Lv2_피로도, [PGS] Lv1_신고 결과 받기, [PGS] Lv2_타겟 넘버| ✅ |
+| Week 05 | [PGS] Lv1_노란불 신호등, [PGS] Lv1_다트게임, [PGS] Lv1_로또의 최고 순위와 최저 순위, [PGS] Lv1_실패율| ✅ |
+| Week 06 | [LTC] House Robber, [PGS] Lv1_공원, [PGS] Lv2_서버 증설 횟수, [PGS] Lv2_주차 요금 계산| ✅ |
+| Week 07 | [PGS] Lv1_공원 산책, [PGS] Lv2_거리두기 확인하기, [PGS] Lv2_전력망 둘로 나누기, [PGS] Lv2_카펫| ✅ |
+| Week 08 | [PGS] Lv1_중요한 단어를 스포 방지, [PGS] Lv2_비밀 코드 해독, [PGS] Lv2_튜플, [PGS] Lv3_네트워크| ✅ |
 | Week 09 | [PGS] Lv1_햄버거 만들기, [PGS] Lv1_달리기 경주, [PGS] Lv2_보물 지도, [LTC] Lv Medium_Coin Change | ⬜ |
 ---
 
