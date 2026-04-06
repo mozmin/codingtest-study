@@ -23,6 +23,7 @@
 | Week 06 | [LTC] House Robber, [PGS] Lv1_공원, [PGS] Lv2_서버 증설 횟수, [PGS] Lv2_주차 요금 계산| ⬜ |
 | Week 07 | [PGS] Lv1_공원 산책, [PGS] Lv2_거리두기 확인하기, [PGS] Lv2_전력망 둘로 나누기, [PGS] Lv2_카펫| ⬜ |
 | Week 08 | [PGS] Lv1_중요한 단어를 스포 방지, [PGS] Lv2_비밀 코드 해독, [PGS] Lv2_튜플, [PGS] Lv3_네트워크| ⬜ |
+| Week 09 | [PGS] Lv1_햄버거 만들기, [PGS] Lv1_달리기 경주, [PGS] Lv2_보물 지도, [LTC] Lv Medium_Coin Change ⬜ |
 ---
 
 ## 플랫폼별 폴더 접두어
