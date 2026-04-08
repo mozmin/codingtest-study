@@ -47,7 +47,7 @@
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 - `주차/플랫폼_난이도_문제명/<username>.md/`
     - `<username>.md`: solution.md 참고해서 작성
 
