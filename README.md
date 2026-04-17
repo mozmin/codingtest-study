@@ -25,6 +25,7 @@
 | Week 08 | [PGS] Lv1_중요한 단어를 스포 방지, [PGS] Lv2_비밀 코드 해독, [PGS] Lv2_튜플, [PGS] Lv3_네트워크| ✅ |
 | Week 09 | [PGS] Lv1_햄버거 만들기, [PGS] Lv1_달리기 경주, [PGS] Lv2_보물 지도, [LTC] Lv Medium_Coin Change | ✅ |
 | Week 10 | [BOG] Gold V_택배 배송, [PGS] Lv1_바탕화면 정리, [PGS] Lv1_숫자 문자열과 영단어, [PGS] Lv2_선인장 숨기기  | ✅ |
+| Week 11 | [PGS] Lv1_데이터 분석, [PGS] Lv2_미로 탈출, [PGS] Lv2_지게차와 크레인, [PGS] Lv2_프렌즈4블록  | ✅ |
 ---
 
 ## 플랫폼별 폴더 접두어
