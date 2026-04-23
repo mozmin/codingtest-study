@@ -2,7 +2,8 @@
 
 코딩테스트 대비 스터디 레포입니다.  
 목표: **2026 취준**을 위해 **주 4문제 이상 꾸준히** 풀고, 풀이를 기록/리뷰합니다.
-<img width="1562" height="768" alt="image" src="https://github.com/user-attachments/assets/01c4b2b4-22bc-47a4-a52c-6ce0bde5b966" />
+<img width="1560" height="761" alt="image" src="https://github.com/user-attachments/assets/a3c86762-460a-4efc-9354-92c4dc2e4b54" />
+
 
 ---
 
