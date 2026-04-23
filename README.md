@@ -26,6 +26,7 @@
 | Week 09 | [PGS] Lv1_햄버거 만들기, [PGS] Lv1_달리기 경주, [PGS] Lv2_보물 지도, [LTC] Lv Medium_Coin Change | ✅ |
 | Week 10 | [BOG] Gold V_택배 배송, [PGS] Lv1_바탕화면 정리, [PGS] Lv1_숫자 문자열과 영단어, [PGS] Lv2_선인장 숨기기  | ✅ |
 | Week 11 | [PGS] Lv1_데이터 분석, [PGS] Lv2_미로 탈출, [PGS] Lv2_지게차와 크레인, [PGS] Lv2_프렌즈4블록  | ✅ |
+| Week 12 | [PGS] Lv1_시저 암호, [PGS] Lv2_무인도 여행, [PGS] Lv2_k진수에서 소수 개수 구하기, [PGS] Lv3_기지국 설치   | ✅ |
 ---
 
 ## 플랫폼별 폴더 접두어
