@@ -28,6 +28,7 @@
 | Week 10 | [BOG] Gold V_택배 배송, [PGS] Lv1_바탕화면 정리, [PGS] Lv1_숫자 문자열과 영단어, [PGS] Lv2_선인장 숨기기  | ✅ |
 | Week 11 | [PGS] Lv1_데이터 분석, [PGS] Lv2_미로 탈출, [PGS] Lv2_지게차와 크레인, [PGS] Lv2_프렌즈4블록  | ✅ |
 | Week 12 | [PGS] Lv1_시저 암호, [PGS] Lv2_무인도 여행, [PGS] Lv2_k진수에서 소수 개수 구하기, [PGS] Lv3_기지국 설치   | ✅ |
+| Week 13 | [PGS] Lv1_K번째 수, [PGS] Lv1_키패드 누르기, [PGS] Lv3_디스크 컨트롤러, [PGS] Lv3_합승 택시 요금   | ✅ |
 ---
 
 ## 플랫폼별 폴더 접두어
