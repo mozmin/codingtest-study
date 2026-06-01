@@ -31,7 +31,7 @@
 | Week 13 | [PGS] Lv1_K번째 수, [PGS] Lv1_키패드 누르기, [PGS] Lv3_디스크 컨트롤러, [PGS] Lv3_합승 택시 요금   | ✅ |
 | Week 14 | [PGS] Lv2_[1차] 뉴스 클러스터링, [PGS] Lv2_n진수 게임, [PGS] Lv2_바이러스 파이프, [PGS] Lv1_택배 상자 꺼내기   | ✅ |
 | Week 15 | [PGS] Lv1_숫자짝꿍, [PGS] Lv2_리코쳇 로봇, [PGS] Lv2_이모티콘 할인행사, [PGS] Lv3_등굣길   | ✅ |
-| Week 16 | [PGS] Lv2_멀리 뛰기, [PGS] Lv2_땅 따먹기, [PGS]  Lv2_올바른 괄호, [PGS] Lv2_더 맵게   | ✅ |
+| Week 16 | [PGS] Lv2_멀리 뛰기, [PGS] Lv2_땅따먹기, [PGS]  Lv2_올바른 괄호, [PGS] Lv2_더 맵게   | ✅ |
 ---
 
 ## 플랫폼별 폴더 접두어
