@@ -33,6 +33,8 @@
 | Week 15 | [PGS] Lv1_숫자짝꿍, [PGS] Lv2_리코쳇 로봇, [PGS] Lv2_이모티콘 할인행사, [PGS] Lv3_등굣길   | ✅ |
 | Week 16 | [PGS] Lv2_멀리 뛰기, [PGS] Lv2_땅따먹기, [PGS]  Lv2_올바른 괄호, [PGS] Lv2_더 맵게   | ✅ |
 | Week 17 | [PGS] Lv1_동영상 재생기, [PGS] Lv3_숫자 야구, [PGS] Lv2_요격 시스템, [PGS] Lv2_호텔 대실   | ✅ |
+| Week 18 | [PGS] Lv1_체육복, [PGS] Lv2_삼각달팽이, [PGS] Lv2유연근무제, [PGS] Lv2_하노이탑   | ✅ |
+| Week 19 | [PGS] Lv1_공원, [PGS] Lv2_바이러스 파이프, [PGS] Lv2_피로도, [LTC] Medium_CoinChange  | ✅ |
 ---
 
 ## 플랫폼별 폴더 접두어
