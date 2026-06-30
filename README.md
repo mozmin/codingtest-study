@@ -14,27 +14,28 @@
 ---
 
 ## Weekly Progress
-| Week | Problems | Status |
-|---|---|---|
-| Week 01 | [PGS] Lv1_가장 많이 받은 선물| ✅ |
-| Week 02 | [PGS] Lv1_성격 유형 검사하기 | ✅ |
-| Week 03 | [PGS] Lv1_개인정보 수집 유효기간 | ✅ |
-| Week 04 | [PGS] Lv1_모의고사, [PGS] Lv2_피로도, [PGS] Lv1_신고 결과 받기, [PGS] Lv2_타겟 넘버| ✅ |
-| Week 05 | [PGS] Lv1_노란불 신호등, [PGS] Lv1_다트게임, [PGS] Lv1_로또의 최고 순위와 최저 순위, [PGS] Lv1_실패율| ✅ |
-| Week 06 | [LTC] House Robber, [PGS] Lv1_공원, [PGS] Lv2_서버 증설 횟수, [PGS] Lv2_주차 요금 계산| ✅ |
-| Week 07 | [PGS] Lv1_공원 산책, [PGS] Lv2_거리두기 확인하기, [PGS] Lv2_전력망 둘로 나누기, [PGS] Lv2_카펫| ✅ |
-| Week 08 | [PGS] Lv1_중요한 단어를 스포 방지, [PGS] Lv2_비밀 코드 해독, [PGS] Lv2_튜플, [PGS] Lv3_네트워크| ✅ |
-| Week 09 | [PGS] Lv1_햄버거 만들기, [PGS] Lv1_달리기 경주, [PGS] Lv2_보물 지도, [LTC] Lv Medium_Coin Change | ✅ |
-| Week 10 | [BOG] Gold V_택배 배송, [PGS] Lv1_바탕화면 정리, [PGS] Lv1_숫자 문자열과 영단어, [PGS] Lv2_선인장 숨기기  | ✅ |
-| Week 11 | [PGS] Lv1_데이터 분석, [PGS] Lv2_미로 탈출, [PGS] Lv2_지게차와 크레인, [PGS] Lv2_프렌즈4블록  | ✅ |
-| Week 12 | [PGS] Lv1_시저 암호, [PGS] Lv2_무인도 여행, [PGS] Lv2_k진수에서 소수 개수 구하기, [PGS] Lv3_기지국 설치   | ✅ |
-| Week 13 | [PGS] Lv1_K번째 수, [PGS] Lv1_키패드 누르기, [PGS] Lv3_디스크 컨트롤러, [PGS] Lv3_합승 택시 요금   | ✅ |
-| Week 14 | [PGS] Lv2_[1차] 뉴스 클러스터링, [PGS] Lv2_n진수 게임, [PGS] Lv2_바이러스 파이프, [PGS] Lv1_택배 상자 꺼내기   | ✅ |
-| Week 15 | [PGS] Lv1_숫자짝꿍, [PGS] Lv2_리코쳇 로봇, [PGS] Lv2_이모티콘 할인행사, [PGS] Lv3_등굣길   | ✅ |
-| Week 16 | [PGS] Lv2_멀리 뛰기, [PGS] Lv2_땅따먹기, [PGS]  Lv2_올바른 괄호, [PGS] Lv2_더 맵게   | ✅ |
-| Week 17 | [PGS] Lv1_동영상 재생기, [PGS] Lv3_숫자 야구, [PGS] Lv2_요격 시스템, [PGS] Lv2_호텔 대실   | ✅ |
-| Week 18 | [PGS] Lv1_체육복, [PGS] Lv2_삼각달팽이, [PGS] Lv2유연근무제, [PGS] Lv2_하노이탑   | ✅ |
-| Week 19 | [PGS] Lv1_공원, [PGS] Lv2_바이러스 파이프, [PGS] Lv2_피로도, [LTC] Medium_CoinChange  | ✅ |
+| Week    | Problems                                                                           | Status |
+|---------|------------------------------------------------------------------------------------|---|
+| Week 01 | [PGS] Lv1_가장 많이 받은 선물                                                              | ✅ |
+| Week 02 | [PGS] Lv1_성격 유형 검사하기                                                               | ✅ |
+| Week 03 | [PGS] Lv1_개인정보 수집 유효기간                                                             | ✅ |
+| Week 04 | [PGS] Lv1_모의고사, [PGS] Lv2_피로도, [PGS] Lv1_신고 결과 받기, [PGS] Lv2_타겟 넘버                 | ✅ |
+| Week 05 | [PGS] Lv1_노란불 신호등, [PGS] Lv1_다트게임, [PGS] Lv1_로또의 최고 순위와 최저 순위, [PGS] Lv1_실패율       | ✅ |
+| Week 06 | [LTC] House Robber, [PGS] Lv1_공원, [PGS] Lv2_서버 증설 횟수, [PGS] Lv2_주차 요금 계산           | ✅ |
+| Week 07 | [PGS] Lv1_공원 산책, [PGS] Lv2_거리두기 확인하기, [PGS] Lv2_전력망 둘로 나누기, [PGS] Lv2_카펫           | ✅ |
+| Week 08 | [PGS] Lv1_중요한 단어를 스포 방지, [PGS] Lv2_비밀 코드 해독, [PGS] Lv2_튜플, [PGS] Lv3_네트워크          | ✅ |
+| Week 09 | [PGS] Lv1_햄버거 만들기, [PGS] Lv1_달리기 경주, [PGS] Lv2_보물 지도, [LTC] Lv Medium_Coin Change  | ✅ |
+| Week 10 | [BOG] Gold V_택배 배송, [PGS] Lv1_바탕화면 정리, [PGS] Lv1_숫자 문자열과 영단어, [PGS] Lv2_선인장 숨기기    | ✅ |
+| Week 11 | [PGS] Lv1_데이터 분석, [PGS] Lv2_미로 탈출, [PGS] Lv2_지게차와 크레인, [PGS] Lv2_프렌즈4블록            | ✅ |
+| Week 12 | [PGS] Lv1_시저 암호, [PGS] Lv2_무인도 여행, [PGS] Lv2_k진수에서 소수 개수 구하기, [PGS] Lv3_기지국 설치     | ✅ |
+| Week 13 | [PGS] Lv1_K번째 수, [PGS] Lv1_키패드 누르기, [PGS] Lv3_디스크 컨트롤러, [PGS] Lv3_합승 택시 요금         | ✅ |
+| Week 14 | [PGS] Lv2_[1차] 뉴스 클러스터링, [PGS] Lv2_n진수 게임, [PGS] Lv2_바이러스 파이프, [PGS] Lv1_택배 상자 꺼내기 | ✅ |
+| Week 15 | [PGS] Lv1_숫자짝꿍, [PGS] Lv2_리코쳇 로봇, [PGS] Lv2_이모티콘 할인행사, [PGS] Lv3_등굣길               | ✅ |
+| Week 16 | [PGS] Lv2_멀리 뛰기, [PGS] Lv2_땅따먹기, [PGS]  Lv2_올바른 괄호, [PGS] Lv2_더 맵게                 | ✅ |
+| Week 17 | [PGS] Lv1_동영상 재생기, [PGS] Lv3_숫자 야구, [PGS] Lv2_요격 시스템, [PGS] Lv2_호텔 대실              | ✅ |
+| Week 18 | [PGS] Lv1_체육복, [PGS] Lv2_삼각달팽이, [PGS] Lv2유연근무제, [PGS] Lv2_하노이탑                     | ✅ |
+| Week 19 | [PGS] Lv1_공원, [PGS] Lv2_바이러스 파이프, [PGS] Lv2_피로도, [LTC] Medium_CoinChange           | ✅ |
+| Week 20 | [PGS] Lv1_다트 게임, [PGS] Lv1_노란불 신호등, [PGS] Lv2_프렌즈4블록, [PGS] Lv3_합승 택시 요금           | ✅ |
 ---
 
 ## 플랫폼별 폴더 접두어
