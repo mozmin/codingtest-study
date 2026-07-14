@@ -36,6 +36,7 @@
 | Week 18 | [PGS] Lv1_체육복, [PGS] Lv2_삼각달팽이, [PGS] Lv2유연근무제, [PGS] Lv2_하노이탑                     | ✅ |
 | Week 19 | [PGS] Lv1_공원, [PGS] Lv2_바이러스 파이프, [PGS] Lv2_피로도, [LTC] Medium_CoinChange           | ✅ |
 | Week 20 | [PGS] Lv1_다트 게임, [PGS] Lv1_노란불 신호등, [PGS] Lv2_프렌즈4블록, [PGS] Lv3_합승 택시 요금           | ✅ |
+| Week 21 | [PGS] Lv1_이웃한 칸, [PGS] Lv2_H-Index, [PGS] Lv2_다리를 지나는 트럭      | ✅ |
 ---
 
 ## 플랫폼별 폴더 접두어
